@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
-import fotoAlessandra from '../../public/IMG_0869.jpg';
+import fotoAlessandra from './assets/images/IMG_0869.jpg';
 import { Container, Typography } from '@mui/material';
 
 export default function AboutInstructor(){
