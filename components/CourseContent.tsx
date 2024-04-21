@@ -1,9 +1,9 @@
 
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import alessandraDutra from './assets/images/alessandra-dutra-1.jpg';
-import makeup from './assets/images/makeup.jpg';
-import alessandraDutra2 from './assets/images/alessandra-dutra-2.jpg';
+import alessandraDutra from '/src/assets/images/alessandra-dutra-1.jpg';
+import makeup from '/src/assets/images/makeup.jpg';
+import alessandraDutra2 from '/src/assets/images/alessandra-dutra-2.jpg';
 import Image from 'next/image';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';

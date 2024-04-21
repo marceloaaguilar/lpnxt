@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import aboutCourse from './assets/images/about-course.jpg';
+import aboutCourse from '/src/assets/images/about-course.jpg';
 import { Typography } from '@mui/material';
 import Grid from '@mui/material/Grid';
 export default function AboutCurse(){
