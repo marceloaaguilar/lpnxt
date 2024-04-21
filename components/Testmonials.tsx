@@ -1,9 +1,9 @@
 import { Container, Typography, Divider} from "@mui/material";
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
-import depoimento1 from '/src/assets/images/depoimento-1.jpg';
-import depoimento2 from '/src/assets/images/depoimento-2.jpg';
-import depoimento3 from '/src/assets/images/depoimento-3.jpg';
+import depoimento1 from '/depoimento-1.jpg';
+import depoimento2 from '/depoimento-2.jpg';
+import depoimento3 from '/depoimento-3.jpg';
 
 export default function Testmonials(){
     return(
