@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
-import homeImage from '../public/homeImage.jpg';
+import homeImage from '../../public/homeImage.jpg';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import AboutCurse from './AboutCourse';

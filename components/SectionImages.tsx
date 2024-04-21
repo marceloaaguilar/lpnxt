@@ -1,7 +1,7 @@
 import Grid from '@mui/material/Grid';
-import image1 from '../public/image1.png';
-import image2 from '../public/image2.png';
-import image3 from '../public/image3.png';
+import image1 from '../../public/image1.png';
+import image2 from '../../public/image2.png';
+import image3 from '../../public/image3.png';
 import Image from 'next/image';
 
 export default function SectionImages(){
