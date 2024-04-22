@@ -1,9 +1,8 @@
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
-import homeImage from '/homeImage.jpg';
+import homeImage from '../public/homeImage.jpg';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import AboutCurse from './AboutCourse';
 
 export default function Header() {
     return (
@@ -15,18 +14,17 @@ export default function Header() {
         '& .markdown': {
           py: 3,
         },
-       
       }}
       >
-        <Image  src={homeImage} alt="Picture of the author"  style={{
+        <Image src={homeImage} alt="Picture of the author" sizes="100vw" style={{
           width: '100%',
           height: '30rem',
           objectFit: 'cover'
-        }}  />
-        <Typography style={{marginTop: '-15rem', zIndex: '1000', color: 'white', fontWeight: '700', marginLeft: '5rem', fontSize: '2rem'}}>
-          Descubra seu Potencial de Beleza
+         }}/>
+        <Typography variant="h1" component="h2" style={{position: 'relative', zIndex: '1000', marginTop: '-17rem', fontSize: '2rem', marginLeft: '3rem', color: '#ffffff', fontWeight: '700'}}> 
+            Descubra o Segredo da Beleza
         </Typography>
-        <Button variant="outlined"  href="#sobre" style={{zIndex: '1000', color: 'white', fontWeight: '700', marginLeft: '5rem', fontSize: '1rem', borderColor: 'white', marginTop: '1rem'}}>Quero Descobrir</Button>
+        <Button variant="outlined" style={{position: 'relative', zIndex: '1000', marginTop: '1rem', marginLeft: '3rem', fontWeight: '200', color: '#ffffff', borderColor: '#ffffff'}}>Quero Conhecer</Button>
       </Grid>
     )
 
