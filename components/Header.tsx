@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
-import homeImage from '../public/homeImage.jpg';
+import homeImage from '../public/imagem3.png';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
@@ -11,15 +11,25 @@ export default function Header() {
       xs={12}
       md={8}
       sx={{
-        '& .markdown': {
-          py: 3,
-        },
+        position: 'relative',
+        height: '30rem',
+        '&::before': {
+          content: '""',
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          backgroundImage: 'linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3))',
+          zIndex: 1,
+        }
       }}
-      >
-        <Image src={homeImage} alt="Picture of the author" sizes="100vw" style={{
+      > 
+        <Image src={homeImage} alt="Picture of the author" sizes="100vw" quality={100} style={{
           width: '100%',
           height: '30rem',
-          objectFit: 'cover'
+          objectFit: 'cover',
+          objectPosition: '65% 35%',
          }}/>
         <Typography variant="h1" component="h2" style={{position: 'relative', zIndex: '1000', marginTop: '-17rem', fontSize: '2rem', marginLeft: '3rem', color: '#ffffff', fontWeight: '700'}}> 
             Descubra o Segredo da Beleza
