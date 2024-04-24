@@ -13,6 +13,7 @@ export default function Header() {
       sx={{
         position: 'relative',
         height: '30rem',
+        textAlign: 'center',
         '&::before': {
           content: '""',
           position: 'absolute',
@@ -31,10 +32,10 @@ export default function Header() {
           objectFit: 'cover',
           objectPosition: '65% 35%',
          }}/>
-        <Typography variant="h1" component="h2" style={{position: 'relative', zIndex: '1000', marginTop: '-17rem', fontSize: '2rem', marginLeft: '3rem', color: '#ffffff', fontWeight: '700', paddingRight: '1rem'}}> 
+        <Typography variant="h1" component="h2" style={{position: 'relative', zIndex: '1000', marginTop: '-17rem', fontSize: '2rem', color: '#ffffff', fontWeight: '700', padding: '0 2rem 0 2rem'}}> 
             Descubra o Segredo da Beleza
         </Typography>
-        <Button variant="outlined" style={{position: 'relative', zIndex: '1000', marginTop: '1rem', marginLeft: '3rem', fontWeight: '200', color: '#ffffff', borderColor: '#ffffff'}}>Quero Conhecer</Button>
+        <Button variant="outlined" style={{position: 'relative', zIndex: '1000', marginTop: '1rem', fontWeight: '200', color: '#ffffff', borderColor: '#ffffff'}}>Quero Conhecer</Button>
       </Grid>
     )
 
