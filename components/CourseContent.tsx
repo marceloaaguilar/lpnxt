@@ -18,13 +18,13 @@ export default function CourseContent(){
                 <Image src={makeup}  style={{height: '30rem', objectFit:'cover', width: '100%'}}alt="Picture of the author"></Image>
               </Grid>
               <Grid item xl={6} md={12} lg={6} style={{textAlign: 'center', paddingTop: '2rem'}}>
-                <Typography style={{color: 'white', fontSize: '2rem', marginBottom: '3rem', lineHeight: '2rem'}}>
+                <Typography style={{color: 'white', fontSize: '2rem', marginBottom: '3rem', lineHeight: '2rem', padding: '1rem'}}>
                 O QUE VOCÊ IRÁ <b> APRENDER </b>
                 </Typography>
                 <Typography style={{color: 'white', fontSize: '1.2rem', textAlign: 'left', marginLeft: '1rem' ,paddingRight: '1rem', lineHeight: '3rem', paddingBottom: '2rem'}}>
-                  • Fundamentos essenciais da maquiagem. <br/>
+                  • Matérias essenciais da maquiagem. <br/>
                   • Uso correto de produtos e ferramentas. <br/>
-                  • Como criar uma rotina de maquiagem eficiente.
+                  • Técnicas profissionais de maquiagem para eventos e dia a dia.
                 </Typography>
               </Grid>
           </Grid>
@@ -51,12 +51,11 @@ export default function CourseContent(){
               </Grid>
               <Grid item xl={6} md={12} lg={6} style={{textAlign: 'center', paddingTop: '2rem'}}>
                 <Typography style={{color: 'white', fontSize: '2rem', marginBottom: '3rem', lineHeight: '2rem'}}>
-                TÉCNICAS PROFISSIONAIS DE <b> MAQUIAGEM </b>
+                TÉCNICAS PROFISSIONAIS DE <b> AUTO MAQUIAGEM </b>
                 </Typography>
                 <Typography style={{color: 'white', fontSize: '1.2rem', textAlign: 'left', marginLeft: '1rem' ,paddingRight: '1rem', lineHeight: '3rem', paddingBottom: '2rem'}}>
-                • Contorno e iluminação para esculpir o rosto. <br/>
+                  • Contorno e iluminação. <br/>
                   • Correção de imperfeições e camuflagem. <br/>
-                  • Segredos para criar looks profissionais para diversas ocasiões.
                 </Typography>
               </Grid>
           </Grid>

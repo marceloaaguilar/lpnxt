@@ -31,7 +31,7 @@ export default function Header() {
           objectFit: 'cover',
           objectPosition: '65% 35%',
          }}/>
-        <Typography variant="h1" component="h2" style={{position: 'relative', zIndex: '1000', marginTop: '-17rem', fontSize: '2rem', marginLeft: '3rem', color: '#ffffff', fontWeight: '700'}}> 
+        <Typography variant="h1" component="h2" style={{position: 'relative', zIndex: '1000', marginTop: '-17rem', fontSize: '2rem', marginLeft: '3rem', color: '#ffffff', fontWeight: '700', paddingRight: '1rem'}}> 
             Descubra o Segredo da Beleza
         </Typography>
         <Button variant="outlined" style={{position: 'relative', zIndex: '1000', marginTop: '1rem', marginLeft: '3rem', fontWeight: '200', color: '#ffffff', borderColor: '#ffffff'}}>Quero Conhecer</Button>
