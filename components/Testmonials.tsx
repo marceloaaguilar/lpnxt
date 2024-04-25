@@ -24,7 +24,7 @@ export default function Testmonials(){
               </Grid>
 
               <Grid item md={12} lg={4}>
-                <Image  src={depoimento3} style={{maxWidth: '100%', height: '25rem', objectFit: 'cover' , border: '1px solid gray', borderColor: '#CCCCCC', borderRadius: '10px'}} alt="Depoimento 1 "></Image>
+                <Image  src={depoimento3} style={{maxWidth: '100%', height: '25rem', objectFit: 'cover' , objectPosition: '95% 5%', border: '1px solid gray', borderColor: '#CCCCCC', borderRadius: '10px'}} alt="Depoimento 1 "></Image>
               </Grid>
 
             </Grid>
