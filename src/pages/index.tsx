@@ -7,6 +7,7 @@ import AboutInstructor from "../../components/AboutInstructor";
 import Form from "../../components/Form";
 import Testmonials from "../../components/Testmonials";
 
+
 export default function Home() {
   return (
     <>
