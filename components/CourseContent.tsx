@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import alessandraDutra from '../public/alessandra1.jpg';
 import makeup from '../public/makeup.jpg';
-import alessandraDutra2 from '../public/alessandra2.jpg';
+import alessandraDutra2 from '../public/image4.jpg';
 import Image from 'next/image';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
@@ -36,7 +36,7 @@ export default function CourseContent(){
                 </Typography>
                 <Typography style={{color: 'white', fontSize: '1.2rem', textAlign: 'left', marginLeft: '1rem' ,paddingRight: '1rem', lineHeight: '3rem', paddingBottom: '2rem'}}>
                   • Técnicas para realçar sua beleza natural. <br/>
-                  • Aprender a se maquiar de acordo com seu estilo pessoal. <br/>
+                  • Aprenda a se maquiar de forma fácil e profissional. <br/>
                   • Dicas para manter a maquiagem impecável ao longo do dia.
                 </Typography>
               </Grid>
